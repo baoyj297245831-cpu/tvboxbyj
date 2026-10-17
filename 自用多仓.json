@@ -1,7 +1,7 @@
 {
     "storeHouse": [
         {
-            "sourceName": "自用单仓",
+            "sourceName": "单仓",
             "sourceUrl": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/cangkulist/自用单仓.json"
         },
         {
