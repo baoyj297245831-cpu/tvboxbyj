@@ -1,0 +1,32 @@
+{
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/18/18.json",
+            "name": "01 18"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/18/Huhujun线路.json",
+            "name": "02 Huhujun线路"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/18/二哈18+.json",
+            "name": "03 二哈18+"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/18/蜂蜜在线.json",
+            "name": "04 蜂蜜在线"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/18/星云线路.json",
+            "name": "星云线路"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/18/扛把子线路.json",
+            "name": "扛把子线路"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/18/浮力yyfxz1.json",
+            "name": "♊浮力yyfxz1[18+]"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "urls": [
+        {
+            "name": "自用晴天",
+            "url": "https://raw.githubusercontent.com/mengzehe/tvbox/main/自用直播晴天源"
+        },
+        {
+            "name": "自用收集",
+            "url": "https://raw.githubusercontent.com/mengzehe/tvbox/main/自用直播"
+        },
+        {
+            "name": "俊于",
+            "url": "http://home.jundie.top:81/Cat/tv/live.txt"
+        },
+        {
+            "name": "应用边界",
+            "url": "https://framagit.org/duomv/duo/-/raw/main/txt/v.txt"
+        },
+        {
+            "name": "OwenTV",
+            "url": "https://jihulab.com/owen2000wy/owentv/-/raw/main/HP20230319.txt"
+        },
+        {
+            "name": "自用源",
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/直播源/自用源.json"
+        },
+        {
+            "name": "yyfx",
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/直播源/yyfx.json"
+        },
+        {
+            "name": "zyplayer",
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/直播源/zyplayer.json"
+        }
+    ]
+}
