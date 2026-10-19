@@ -1,4 +1,4 @@
-# 自用多仓在线改
+# 自用多仓vscode改
 
 https://raw.githubusercontent.com/felixiao/TVBoxSource/main/自用多仓.json
 
