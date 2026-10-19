@@ -1,0 +1,12 @@
+{
+    "storeHouse": [
+        {
+            "sourceName": "单仓",
+            "sourceUrl": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/cangkulist/自用单仓.json"
+        },
+        {
+            "sourceName": "自用直播仓库",
+            "sourceUrl": "https://cdn.jsdelivr.net/gh/Lightconer/TVBox-Sources@main/output/live.txt"
+        }
+    ]
+}
