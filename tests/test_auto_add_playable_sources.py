@@ -47,6 +47,24 @@ class PlayableConfigTests(unittest.TestCase):
             )
         )
 
+    def test_rejects_live_sources(self):
+        self.assertTrue(
+            source_updater.is_live_source(
+                {
+                    "name": "自动收录 · 直播源/yyfx",
+                    "url": "https://example.test/直播源/yyfx.json",
+                }
+            )
+        )
+        self.assertFalse(
+            source_updater.is_live_source(
+                {
+                    "name": "影视配置",
+                    "url": "https://example.test/config.json",
+                }
+            )
+        )
+
     def test_local_candidates_use_github_pages_paths(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -59,6 +77,11 @@ class PlayableConfigTests(unittest.TestCase):
             adult_config.parent.mkdir()
             adult_config.write_text(
                 json.dumps({"sites": [{"api": "csp_Adult"}]}), encoding="utf-8"
+            )
+            live_config = root / "直播源" / "live.json"
+            live_config.parent.mkdir()
+            live_config.write_text(
+                json.dumps({"sites": [{"api": "csp_Live"}]}), encoding="utf-8"
             )
             with (
                 patch.object(source_updater, "ROOT", root),
@@ -103,6 +126,10 @@ class PlayableConfigTests(unittest.TestCase):
                             {
                                 "name": "二哈18+",
                                 "url": "https://example.test/source.json",
+                            },
+                            {
+                                "name": "自动收录 · 直播源/yyfx",
+                                "url": "https://example.test/直播源/yyfx.json",
                             },
                             {
                                 "name": "safe",

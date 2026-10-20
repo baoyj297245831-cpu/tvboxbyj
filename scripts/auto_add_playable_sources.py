@@ -45,6 +45,13 @@ def is_adult_source(source: dict[str, str]) -> bool:
     return "18+" in decoded or "18＋" in decoded or "18" in path_segments
 
 
+def is_live_source(source: dict[str, str]) -> bool:
+    name = source.get("name", "")
+    url = source.get("url", "")
+    decoded = unquote(f"{name} {url}").replace("\\", "/").lower()
+    return "直播源" in decoded or "直播" in decoded.split("/")
+
+
 def read_remote_config(url: str) -> bool:
     request = Request(
         encode_url(url), headers={"User-Agent": "tvboxbyj-source-check/1.0"}
@@ -82,7 +89,7 @@ def readme_candidates() -> list[dict[str, str]]:
         if parsed.path.lower().endswith(".json") and url not in seen_urls:
             name = Path(unquote(parsed.path)).stem or url
             candidate = {"name": name, "url": url}
-            if not is_adult_source(candidate):
+            if not is_adult_source(candidate) and not is_live_source(candidate):
                 candidates.append(candidate)
             seen_urls.add(url)
     return candidates
@@ -104,7 +111,7 @@ def local_candidates() -> list[dict[str, str]]:
             "name": f"自动收录 · {relative.as_posix()[:-5]}",
             "url": f"{base_url}{quote(relative.as_posix(), safe='/')}",
         }
-        if is_adult_source(candidate):
+        if is_adult_source(candidate) or is_live_source(candidate):
             continue
         try:
             data = json.loads(path.read_text(encoding="utf-8-sig"))
@@ -146,7 +153,8 @@ def update_manifest(candidates: list[dict[str, str]]) -> int:
     manifest["urls"] = [
         entry
         for entry in original_entries
-        if not isinstance(entry, dict) or not is_adult_source(entry)
+        if not isinstance(entry, dict)
+        or not (is_adult_source(entry) or is_live_source(entry))
     ]
     removed_count = len(original_entries) - len(manifest["urls"])
     existing_urls = {
@@ -156,7 +164,11 @@ def update_manifest(candidates: list[dict[str, str]]) -> int:
     }
     added = []
     for candidate in candidates:
-        if not is_adult_source(candidate) and candidate["url"] not in existing_urls:
+        if (
+            not is_adult_source(candidate)
+            and not is_live_source(candidate)
+            and candidate["url"] not in existing_urls
+        ):
             manifest["urls"].append(candidate)
             existing_urls.add(candidate["url"])
             added.append(candidate)
@@ -167,7 +179,7 @@ def update_manifest(candidates: list[dict[str, str]]) -> int:
             encoding="utf-8",
         )
     if removed_count:
-        print(f"Removed {removed_count} adult source(s).")
+        print(f"Removed {removed_count} excluded source(s).")
     for candidate in added:
         print(f"Added {candidate['name']}: {candidate['url']}")
     print(f"Added {len(added)} source(s).")
