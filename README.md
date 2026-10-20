@@ -1,6 +1,3 @@
-# 自用多仓vscode改
-
-https://raw.githubusercontent.com/felixiao/TVBoxSource/main/自用多仓.json
 
 # 自动收录可播放配置
 
