@@ -27,6 +27,26 @@ class PlayableConfigTests(unittest.TestCase):
             "http://xn--sss604efuw.ga/x/%E9%85%8D%E7%BD%AE.json",
         )
 
+    def test_rejects_adult_sources(self):
+        self.assertTrue(
+            source_updater.is_adult_source(
+                {
+                    "name": "自动收录 · 18/18-01",
+                    "url": "https://example.test/18/18-01.json",
+                }
+            )
+        )
+        self.assertTrue(
+            source_updater.is_adult_source(
+                {"name": "二哈18＋", "url": "https://example.test/config.json"}
+            )
+        )
+        self.assertFalse(
+            source_updater.is_adult_source(
+                {"name": "线路18", "url": "https://example.test/config.json"}
+            )
+        )
+
     def test_local_candidates_use_github_pages_paths(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -34,6 +54,11 @@ class PlayableConfigTests(unittest.TestCase):
             config.parent.mkdir()
             config.write_text(
                 json.dumps({"sites": [{"api": "csp_Test"}]}), encoding="utf-8"
+            )
+            adult_config = root / "18" / "adult.json"
+            adult_config.parent.mkdir()
+            adult_config.write_text(
+                json.dumps({"sites": [{"api": "csp_Adult"}]}), encoding="utf-8"
             )
             with (
                 patch.object(source_updater, "ROOT", root),
@@ -63,6 +88,39 @@ class PlayableConfigTests(unittest.TestCase):
             result = json.loads(target.read_text(encoding="utf-8"))
 
         self.assertEqual(result["urls"], [original["urls"][0], candidate])
+
+    def test_manifest_update_removes_adult_entries(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory) / "manifest.json"
+            target.write_text(
+                json.dumps(
+                    {
+                        "urls": [
+                            {
+                                "name": "adult",
+                                "url": "https://example.test/18/source.json",
+                            },
+                            {
+                                "name": "二哈18+",
+                                "url": "https://example.test/source.json",
+                            },
+                            {
+                                "name": "safe",
+                                "url": "https://example.test/safe.json",
+                            },
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            with patch.object(source_updater, "TARGET", target):
+                source_updater.update_manifest([])
+            result = json.loads(target.read_text(encoding="utf-8"))
+
+        self.assertEqual(
+            result["urls"],
+            [{"name": "safe", "url": "https://example.test/safe.json"}],
+        )
 
 
 if __name__ == "__main__":

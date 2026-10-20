@@ -34,6 +34,17 @@ def is_playable_config(data: object) -> bool:
     )
 
 
+def is_adult_source(source: dict[str, str]) -> bool:
+    name = source.get("name", "")
+    url = source.get("url", "")
+    decoded = unquote(f"{name} {url}").replace("＋", "+").lower()
+    path_segments = (
+        name.replace("\\", "/").lower().split("/")
+        + urlsplit(unquote(url)).path.lower().split("/")
+    )
+    return "18+" in decoded or "18＋" in decoded or "18" in path_segments
+
+
 def read_remote_config(url: str) -> bool:
     request = Request(
         encode_url(url), headers={"User-Agent": "tvboxbyj-source-check/1.0"}
@@ -70,7 +81,9 @@ def readme_candidates() -> list[dict[str, str]]:
         parsed = urlsplit(url)
         if parsed.path.lower().endswith(".json") and url not in seen_urls:
             name = Path(unquote(parsed.path)).stem or url
-            candidates.append({"name": name, "url": url})
+            candidate = {"name": name, "url": url}
+            if not is_adult_source(candidate):
+                candidates.append(candidate)
             seen_urls.add(url)
     return candidates
 
@@ -87,19 +100,19 @@ def local_candidates() -> list[dict[str, str]]:
         relative = path.relative_to(ROOT)
         if any(part.startswith(".") for part in relative.parts):
             continue
+        candidate = {
+            "name": f"自动收录 · {relative.as_posix()[:-5]}",
+            "url": f"{base_url}{quote(relative.as_posix(), safe='/')}",
+        }
+        if is_adult_source(candidate):
+            continue
         try:
             data = json.loads(path.read_text(encoding="utf-8-sig"))
         except (OSError, UnicodeError, json.JSONDecodeError) as error:
             print(f"Skipping invalid local JSON {relative}: {error}", file=sys.stderr)
             continue
         if is_playable_config(data):
-            encoded_path = quote(relative.as_posix(), safe="/")
-            candidates.append(
-                {
-                    "name": f"自动收录 · {relative.as_posix()[:-5]}",
-                    "url": f"{base_url}{encoded_path}",
-                }
-            )
+            candidates.append(candidate)
     return candidates
 
 
@@ -129,6 +142,13 @@ def update_manifest(candidates: list[dict[str, str]]) -> int:
     if not isinstance(manifest, dict) or not isinstance(manifest.get("urls"), list):
         raise ValueError(f"{TARGET} must contain a 'urls' array")
 
+    original_entries = manifest["urls"]
+    manifest["urls"] = [
+        entry
+        for entry in original_entries
+        if not isinstance(entry, dict) or not is_adult_source(entry)
+    ]
+    removed_count = len(original_entries) - len(manifest["urls"])
     existing_urls = {
         entry.get("url")
         for entry in manifest["urls"]
@@ -136,16 +156,18 @@ def update_manifest(candidates: list[dict[str, str]]) -> int:
     }
     added = []
     for candidate in candidates:
-        if candidate["url"] not in existing_urls:
+        if not is_adult_source(candidate) and candidate["url"] not in existing_urls:
             manifest["urls"].append(candidate)
             existing_urls.add(candidate["url"])
             added.append(candidate)
 
-    if added:
+    if added or removed_count:
         TARGET.write_text(
             json.dumps(manifest, ensure_ascii=False, indent=4) + "\n",
             encoding="utf-8",
         )
+    if removed_count:
+        print(f"Removed {removed_count} adult source(s).")
     for candidate in added:
         print(f"Added {candidate['name']}: {candidate['url']}")
     print(f"Added {len(added)} source(s).")
