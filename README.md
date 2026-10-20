@@ -4,7 +4,9 @@ https://raw.githubusercontent.com/felixiao/TVBoxSource/main/自用多仓.json
 
 # 自动收录可播放配置
 
-GitHub Actions 每天检查 README 中的 `.json` 链接及仓库内的 JSON 配置，并将包含非空 `sites` 配置（至少一个站点含 `api` 或 `url`）的来源追加到 `cangkulist/自用单仓.json`。README 外链还需可访问且返回有效 JSON；也可在 Actions 页面手动运行工作流。该检查验证配置结构，不代表已在 TVBox 播放器中实测播放。
+GitHub Actions 每天检查 README 中的 `.json` 链接及仓库内的 JSON 配置，并将包含非空 `sites` 配置（至少一个站点含 `api` 或 `url`）的来源追加到 `cangkulist/自用单仓.json`。README 外链还需可访问且返回有效 JSON；也可在 Actions 页面手动运行工作流。
+
+该检查验证配置结构，不代表已在 TVBox 播放器中实测播放。自动收录会跳过 18+ 和直播源。
 
 # 使用Replit部署LiveRedirect项目
 
