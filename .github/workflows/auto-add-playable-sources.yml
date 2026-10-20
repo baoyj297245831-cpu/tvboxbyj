@@ -1,0 +1,31 @@
+name: Auto-add playable JSON sources
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Discover and validate sources
+        run: python scripts/auto_add_playable_sources.py
+      - name: Commit new sources
+        run: |
+          if git diff --quiet -- cangkulist/自用单仓.json; then
+            echo "No new sources to add."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cangkulist/自用单仓.json
+          git commit -m "chore: auto-add playable JSON sources"
+          git push

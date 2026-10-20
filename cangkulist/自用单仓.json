@@ -1,13 +1,12 @@
 {
     "urls": [
-        
         {
             "url": "https://dxawi.github.io/0/0.json",
             "name": "线路01 暴风IK"
         },
         {
             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/云盘线路.json",
-            "name": "线路02 鱼哥"
+            "name": "线路02 鱼哥云盘线路"
         },
         {
             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/夜猫子.json",
@@ -30,16 +29,84 @@
             "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/hcxd/hcxd.json"
         },
         {
-            "name": "线路08 🔥刘备线路",    
+            "name": "线路08 🔥刘备线路",
             "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/lcn/lcn.json"
         },
         {
             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/爽翻天.json",
-            "name": "线路09 ⏺⏯️爽翻天〔多条线路〕"
+            "name": "线路09 鱼哥爽翻天〔多条线路〕"
         },
         {
-            "name": "欧歌家庭",
+            "name": "线路10 欧歌家庭",
             "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index2&123&b=欧歌"
+        },
+        {
+            "name": "自动收录 · 18/18-01",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/18/18-01.json"
+        },
+        {
+            "name": "自动收录 · 18/18-02",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/18/18-02.json"
+        },
+        {
+            "name": "自动收录 · 18/18",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/18/18.json"
+        },
+        {
+            "name": "自动收录 · 18/Huhujun线路",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/18/Huhujun%E7%BA%BF%E8%B7%AF.json"
+        },
+        {
+            "name": "自动收录 · 18/二哈18+",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/18/%E4%BA%8C%E5%93%8818%2B.json"
+        },
+        {
+            "name": "自动收录 · 18/扛把子线路",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/18/%E6%89%9B%E6%8A%8A%E5%AD%90%E7%BA%BF%E8%B7%AF.json"
+        },
+        {
+            "name": "自动收录 · 18/星云线路",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/18/%E6%98%9F%E4%BA%91%E7%BA%BF%E8%B7%AF.json"
+        },
+        {
+            "name": "自动收录 · 18/浮力yyfxz1",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/18/%E6%B5%AE%E5%8A%9Byyfxz1.json"
+        },
+        {
+            "name": "自动收录 · 18/蜂蜜在线",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/18/%E8%9C%82%E8%9C%9C%E5%9C%A8%E7%BA%BF.json"
+        },
+        {
+            "name": "自动收录 · 源/PY",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/PY.json"
+        },
+        {
+            "name": "自动收录 · 源/云盘线路",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E4%BA%91%E7%9B%98%E7%BA%BF%E8%B7%AF.json"
+        },
+        {
+            "name": "自动收录 · 源/夜猫子",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E5%A4%9C%E7%8C%AB%E5%AD%90.json"
+        },
+        {
+            "name": "自动收录 · 源/爽翻天",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E7%88%BD%E7%BF%BB%E5%A4%A9.json"
+        },
+        {
+            "name": "自动收录 · 直播源/yyfx",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E7%9B%B4%E6%92%AD%E6%BA%90/yyfx.json"
+        },
+        {
+            "name": "自动收录 · 直播源/自用源",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E7%9B%B4%E6%92%AD%E6%BA%90/%E8%87%AA%E7%94%A8%E6%BA%90.json"
+        },
+        {
+            "name": "top98",
+            "url": "http://home.jundie.top:81/top98.json"
+        },
+        {
+            "name": "py",
+            "url": "https://raw.githubusercontent.com/UndCover/PyramidStore/main/py.json"
         }
     ]
 }
