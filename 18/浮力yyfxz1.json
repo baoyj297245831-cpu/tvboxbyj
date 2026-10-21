@@ -57,6 +57,43 @@
             ]
         },
         {
+            "key": "csp_xml_ck",
+            "name": "🎀CK资源",
+            "type": 0,
+            "api": "https://ckzy.me/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "伦理片",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "悬疑片",
+                "记录片",
+                "犯罪片",
+                "奇幻片",
+                "电视剧",
+                "国产剧",
+                "欧美剧",
+                "日韩剧",
+                "港台剧"
+            ]
+        },
+         {
+            "key": "csp_xml_CK资源",
+            "name": "🐝CK 资源",
+            "type": 1,
+            "api": "https://ckzy.me/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
             "key": "❤91麻豆",
             "name": "❤91麻豆源",
             "type": 1,
