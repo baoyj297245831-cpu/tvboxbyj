@@ -2,32 +2,28 @@
     "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06",
     "lives": [
         {
-            "name": "牛播一(新版影视仓/ok影视)",
+            "name": "Tivi",
             "type": 0,
             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/直播源/Tivi.m3u",
-            "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
+            "logo": "https:{name}.png"
         },
         {
             "name": "IPV4",
             "type": 0,
             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/直播源/Tivi.m3u",
-            "playerType": 1,
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
+            "logo": "https:{name}.png"
         },
         {
             "name": "IPV6①",
             "type": 0,
-            "url": "https://ghp.ci/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-            "playerType": 1
+            "url": "https://ghp.ci/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
         },
         {
             "name": "IPV6②",
             "type": 0,
             "url": "https://ghp.ci/raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
-            "playerType": 1,
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
+            "logo": "https:{name}.png"
         }
     ],
     "sites": [
