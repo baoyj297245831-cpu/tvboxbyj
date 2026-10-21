@@ -20,5 +20,5 @@ def txt_to_m3u(input_file, output_file):
                     fout.write(f'{url}\n')
 
 if __name__ == "__main__":
-    txt_to_m3u("Tivi.txt", "Tivi.m3u")
-    print("转换完成，已生成 output.m3u")
+    txt_to_m3u("自用直播油管源.txt", "自用直播油管源.m3u")
+    print("转换完成！")
