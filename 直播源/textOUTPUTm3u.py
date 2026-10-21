@@ -21,4 +21,4 @@ def txt_to_m3u(input_file, output_file):
 
 if __name__ == "__main__":
     txt_to_m3u("Tivi.txt", "Tivi.m3u")
-    print("转换完成，已生成 Tivi.m3u")
+    print("转换完成，已生成 output.m3u")
