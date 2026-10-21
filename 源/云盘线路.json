@@ -1741,15 +1741,6 @@
             "quickSearch": 1
         },
         {
-            "key": "csp_xml___CK资源",
-            "name": "🐝CK 资源",
-            "type": 1,
-            "api": "https://ckzy.me/api.php/provide/vod/",
-            "playUrl": "",
-            "searchable": 1,
-            "quickSearch": 1
-        },
-        {
             "key": "csp_xml___每天看看",
             "name": "🐝每天看看",
             "type": 1,
