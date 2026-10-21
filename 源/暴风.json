@@ -2,16 +2,17 @@
     "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06",
     "lives": [
         {
-            "name": "卫视",
-            "type": 1,
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/直播源/Tivi.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
-            "logo": "http://epg.51zmt.top:8000/{logo}"
+            "name": "牛播一(新版影视仓/ok影视)",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi.txt",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
             "name": "IPV4",
             "type": 0,
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/直播源/Tivi.txt",
+            "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
