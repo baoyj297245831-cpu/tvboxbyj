@@ -4,7 +4,7 @@
         {
             "name": "牛播一(新版影视仓/ok影视)",
             "type": 0,
-            "url": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi.txt",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/Tivi.m3u",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.com/tv/{name}.png"
