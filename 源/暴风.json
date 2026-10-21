@@ -4,14 +4,14 @@
         {
             "name": "卫视",
             "type": 1,
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/Tivi.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/直播源/Tivi.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
         },
         {
             "name": "IPV4",
             "type": 0,
-            "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/直播源/直播源.txt",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
