@@ -1,0 +1,304 @@
+{
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/技巧.json",
+            "name": "01 技巧"
+        },
+        {
+            "url": "https://cdn.jsdelivr.net/gh/liu673cn/box@main/m.json",
+            "name": "liu673"
+        },
+        {
+            "url": "https://gcore.jsdelivr.net/gh/gaotianliuyun/gao@master/js.json",
+            "name": "高天流水"
+        },
+        {
+            "url": "https://notabug.org/imbig66/tv-spider-man/raw/master/%E9%85%8D%E7%BD%AE/0801.json",
+            "name": "胖虎"
+        },
+        {
+            "url": "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/tv.json",
+            "name": "湘雅晴TV"
+        },
+        {
+            "url": "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/app.json",
+            "name": "湘雅晴APP"
+        },
+        {
+            "url": "http://home.jundie.top:81/top98.json",
+            "name": "俊于"
+        },
+        {
+            "url": "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/XYQTVBox/drpy_js/drjs_config.json",
+            "name": "道长"
+        },
+        {
+            "url": "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/fongmi.json",
+            "name": "蜂蜜"
+        },
+        {
+            "url": "http://pandown.pro/tvbox/tvbox.json",
+            "name": "饭太硬"
+        },
+        {
+            "url": "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/fan.json",
+            "name": "巧儿"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/zongru666/myIPTV/main/yingshi2024.json",
+            "name": "zongru666"
+        },
+        {
+            "url": "https://dxawi.github.io/0/0.json",
+            "name": "Dxawi"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/阿里精品专线.json",
+            "name": "02 🅰️阿里精品专线"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/云盘线路.json",
+            "name": "03 🎬云盘线路"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/运输车主线.json",
+            "name": "04 🚚运输车主线[516]"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/运输车CF加速.json",
+            "name": "05 🚚运输车CF加速"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/dong-learn.json",
+            "name": "06 🍄dong-learn[527]"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/巧儿.json",
+            "name": "⏰巧儿[521]"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/东2.json",
+            "name": "⏰东2[0526]"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/暴脾气.json",
+            "name": "⏰暴脾气[0608]"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/M线路.json",
+            "name": "Ⓜ️M线路[0608]"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/N线路.json",
+            "name": "Ⓜ️N线路[0608]"
+        },
+        {
+            "name": "🌨｜饭太硬线路｜🌨",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/fty/fty.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/肥猫.json",
+            "name": "线路2（肥猫）"
+        },
+        {
+            "name": "🐉｜肥猫线路｜🐉",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/feim/feim.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/夜猫子.json",
+            "name": "线路3（夜猫子）"
+        },
+        {
+            "name": "🏝｜夜猫子线路｜🏝",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/ymz/ymz.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/运输车.json",
+            "name": "线路4（运输车）"
+        },
+        {
+            "name": "🎡｜运输车线路｜🎡",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/ysc/ysc.json"
+        },
+        {
+            "url": "http://svip.weixine.net:88/uploads/itvbox/svip.json",
+            "name": "🐹运输车线路"
+        },
+        {
+            "name": "🚚运输车",
+            "url": "https://weixine.net/ysc.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/dxawi.json",
+            "name": "线路5（dxawi）"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/多多.json",
+            "name": "线路6（多多）"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/香雅情.json",
+            "name": "线路7（香雅情）"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/菜妮丝.json",
+            "name": "线路8（菜妮丝）"
+        },
+        {
+            "name": "🌴｜菜妮丝线路｜🌴",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/cns/cns.json"
+        },
+        {
+            "url": "https://tvbox.cainisi.cf",
+            "name": "菜妮丝线路"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/巧儿02.json",
+            "name": "线路9（巧儿02）"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/南风.json",
+            "name": "线路10（南风）"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/JS.json",
+            "name": "线路11（JS）"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/PY.json",
+            "name": "线路12（PY）"
+        },
+        {
+            "name": "🐉｜多多线路｜🐉",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/dduo/dduo.json"
+        },
+        {
+            "name": "👇｜高天流云线路｜👇",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/gtly/gtly.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+            "name": "🐹高天流云"
+        },
+        {
+            "name": "💫｜荷城茶秀线路｜💫",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/hcxd/hcxd.json"
+        },
+        {
+            "name": "🔥｜刘备线路｜🔥",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/lcn/lcn.json"
+        },
+        {
+            "name": "刘备线路",
+            "url": "https://raw.liucn.cc/box/m.json"
+        },
+        {
+            "name": "✨｜甜蜜线路｜✨",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/tm/tm.json"
+        },
+        {
+            "name": "✨｜云星哔哩线路｜✨",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/yxbl/yxbl.json"
+        },
+        {
+            "name": "🥗｜云星家庭线路｜🥗",
+            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/yxjt/yxjt.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/源/爽翻天.json",
+            "name": "⏯️爽翻天〔多条线路〕"
+        },
+        {
+            "url": "http://xhww.fun/小米/DEMO.json",
+            "name": " 🥞小米线路"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+            "name": "⏯️香雅晴〔多条线路〕"
+        },
+        {
+            "url": "https://pastebin.com/raw/5NHaxyGR",
+            "name": "⏯️道长〔多条线路〕"
+        },
+        {
+            "url": "https://100km.top/0",
+            "name": " 🥓Ray线路"
+        },
+        {
+            "url": "http://cdn.qiaoji8.com/tvbox.json",
+            "name": "巧记线路"
+        },
+        {
+            "url": "https://szyyds.cn/tv/x.json",
+            "name": "💎小马线路"
+        },
+        {
+            "url": "https://xhdwc.tk/0",
+            "name": "🥓Ray0线路"
+        },
+        {
+            "url": "https://api-lmteam.koyeb.app/files/py.json",
+            "name": "霜辉月明py"
+        },
+        {
+            "name": "霜辉月明",
+            "url": "https://raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json"
+        },
+        {
+            "url": "http://home.jundie.top:81/top98.json",
+            "name": "🚀俊佬线路"
+        },
+        {
+            "url": "https://cn.kstore.space/download/2883/0110.txt",
+            "name": "🐹蚂蚁论坛线路"
+        },
+        {
+            "url": "http://8.210.232.168/xc.json",
+            "name": "🐹星辰线路"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
+            "name": "💎一木线路"
+        },
+        {
+            "url": "http://yydf.540734621.xyz/yydf/yydf/bd/yydf.json",
+            "name": "🏄️业余线路"
+        },
+        {
+            "name": "欧歌家庭",
+            "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index2&123&b=欧歌"
+        },
+        {
+            "name": "小盒子线",
+            "url": "http://xhztv.top/xhz.json"
+        },
+        {
+            "name": "二哈线路",
+            "url": "https://raw.githubusercontent.com/2hacc/TVBox/main/tvbox.json"
+        },
+        {
+            "name": "道长路线",
+            "url": "https://pastebin.com/raw/5NHaxyGR"
+        },
+        {
+            "name": "一木自用",
+            "url": "https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/一木自用.json"
+        },
+        {
+            "name": "0️⃣骚0",
+            "url": "https://xhdwc.tk/0"
+        },
+        {
+            "name": "💝恋影",
+            "url": "https://www.lianyingtv.com/fast/fast"
+        },
+        {
+            "name": "🍀俊宇",
+            "url": "http://home.jundie.top:81/top98.json"
+        },
+        {
+            "name": "💦巧技",
+            "url": "http://pandown.pro/tvbox/tvbox.json"
+        }
+    ]
+}
