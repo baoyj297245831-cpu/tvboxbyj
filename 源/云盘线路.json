@@ -1,5 +1,6 @@
 {
     "wallpaper": "https://api.ixiaowai.cn/gqapi/gqapi.php",
+    "warningText": "🐟️鲍小鱼提醒：儿童请再监护人监督下观看，部分资源可能存在不适合儿童观看的内容。",
     "sites": [
         {
             "key": "csp_Kuaikan",

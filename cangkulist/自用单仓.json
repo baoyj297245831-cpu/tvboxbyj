@@ -1,69 +1,12 @@
 {
     "urls": [
         {
-            
             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/暴风.json",
-            "name": "线路01 暴风"
-        },
-        {
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/云盘线路.json",
-            "name": "线路02 鱼哥云盘线路"
+            "name": "线路01 🐟️主页API直连"
         },
         {
             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/夜猫子.json",
-            "name": "线路03 鱼哥"
-        },
-        {
-            "name": "线路04 🏝夜猫子线路",
-            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/ymz/ymz.json"
-        },
-        {
-            "name": "线路05 🌴菜妮丝线路",
-            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/cns/cns.json"
-        },
-        {
-            "name": "线路06 🐉｜多多线路｜🐉",
-            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/dduo/dduo.json"
-        },
-        {
-            "name": "线路07 🚡荷城茶秀线路",
-            "url": "https://raw.githubusercontent.com/yyfxz/yyrh/main/hcxd/hcxd.json"
-        },
-        {
-            "name": "线路08 🔥刘备线路",
-             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/ck资源.json"
-        },
-        {
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/爽翻天.json",
-            "name": "线路09 鱼哥爽翻天〔多条线路〕"
-        },
-        {
-            "name": "线路10 欧歌家庭",
-            "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index2&123&b=欧歌"
-        },
-        {
-            "name": "自动收录 · 源/PY",
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/PY.json"
-        },
-        {
-            "name": "自动收录 · 源/云盘线路",
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E4%BA%91%E7%9B%98%E7%BA%BF%E8%B7%AF.json"
-        },
-        {
-            "name": "自动收录 · 源/夜猫子",
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E5%A4%9C%E7%8C%AB%E5%AD%90.json"
-        },
-        {
-            "name": "自动收录 · 源/爽翻天",
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E7%88%BD%E7%BF%BB%E5%A4%A9.json"
-        },
-        {
-            "name": "top98",
-            "url": "http://home.jundie.top:81/top98.json"
-        },
-        {
-            "name": "py",
-            "url": "https://raw.githubusercontent.com/UndCover/PyramidStore/main/py.json"
+            "name": "线路02 🐟️鱼哥API_js"
         }
     ]
 }
