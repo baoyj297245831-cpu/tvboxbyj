@@ -7,6 +7,46 @@
         {
             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/源/夜猫子.json",
             "name": "线路02 🐟️鱼哥API_js"
+        },
+        {
+            "name": "自动收录 · testAPI/JAR_JSAPIfile/baoxiaoyu_jarjs/baoxyjarjs",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/testAPI/JAR_JSAPIfile/baoxiaoyu_jarjs/baoxyjarjs.json"
+        },
+        {
+            "name": "自动收录 · testAPI/github_type1_candidates",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/testAPI/github_type1_candidates.json"
+        },
+        {
+            "name": "自动收录 · testAPI/jar_jsAPI",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/testAPI/jar_jsAPI.json"
+        },
+        {
+            "name": "自动收录 · testAPI/直连API",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/testAPI/%E7%9B%B4%E8%BF%9EAPI.json"
+        },
+        {
+            "name": "自动收录 · 源/PY",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/PY.json"
+        },
+        {
+            "name": "自动收录 · 源/ck资源",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/ck%E8%B5%84%E6%BA%90.json"
+        },
+        {
+            "name": "自动收录 · 源/云盘线路",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E4%BA%91%E7%9B%98%E7%BA%BF%E8%B7%AF.json"
+        },
+        {
+            "name": "自动收录 · 源/夜猫子",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E5%A4%9C%E7%8C%AB%E5%AD%90.json"
+        },
+        {
+            "name": "自动收录 · 源/暴风",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E6%9A%B4%E9%A3%8E.json"
+        },
+        {
+            "name": "自动收录 · 源/爽翻天",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/%E6%BA%90/%E7%88%BD%E7%BF%BB%E5%A4%A9.json"
         }
     ]
 }
