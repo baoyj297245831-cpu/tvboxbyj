@@ -21,3 +21,7 @@ check_direct_api_json.py               //测试脚本
    3、脚本自动收集、去重，并合并到直连API.json；合并前会创建备份
    4、接口可用性检查不会自动运行，避免向来源配置中的任意第三方主机发请求
    5、确需检查时，单独运行 python check_direct_api_json.py
+
+
+
+python extract_homepage_categories.py   //提取主页关键键字
