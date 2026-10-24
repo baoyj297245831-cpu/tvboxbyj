@@ -1,1 +1,23 @@
 https:baoyj297245831-cpu.github.io/tvboxbyj/testAPI/直连API.json
+
+
+github_type1_candidates.json           //待审核
+extract_type1_apis.py                  //审核脚本
+直连API.json                           //已审核
+check_direct_api_json.py               //测试脚本
+
+手动审核更新过程
+    python collect_github_type1_apis.py
+    手动输入可访问的 HTTP/HTTPS .json 文件地址
+    新增待审核 type 1 接口: ≥1
+    python extract_type1_apis.py
+    请输入源 JSON 文件名: github_type1_candidates.json
+    请输入目标 JSON 文件名: 直连API.json
+    测试接口可用性有重复性：python check_direct_api_json.py
+
+自动更新流程
+   1、运行 python auto_update_type1_apis.py
+   2、输入可访问的 HTTP/HTTPS .json 文件地址
+   3、脚本自动收集、去重，并合并到直连API.json；合并前会创建备份
+   4、接口可用性检查不会自动运行，避免向来源配置中的任意第三方主机发请求
+   5、确需检查时，单独运行 python check_direct_api_json.py
