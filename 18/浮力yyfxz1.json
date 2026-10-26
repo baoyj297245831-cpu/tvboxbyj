@@ -2,7 +2,7 @@
     "sites": [
         {
             "key": "索尼采集",
-            "name": "🐟️鲍小鱼首页",
+            "name": "🐟️首页",
             "type": 1,
             "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
             "playUrl": "",
@@ -70,6 +70,15 @@
             ]
         },
         {
+            "key": "csp_xml_CK资源",
+            "name": "🐝CK 资源",
+            "type": 1,
+            "api": "https://ckzy.me/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
             "key": "番外",
             "name": "番外采集",
             "type": 1,
@@ -126,34 +135,6 @@
             ]
         },
         {
-            "key": "csp_xml_ck",
-            "name": "🎀CK资源",
-            "type": 0,
-            "api": "https://ckzy.me/api.php/provide/vod/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "categories": [
-                "伦理片",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "悬疑片",
-                "记录片",
-                "犯罪片",
-                "奇幻片",
-                "电视剧",
-                "国产剧",
-                "欧美剧",
-                "日韩剧",
-                "港台剧"
-            ]
-        },
-        {
             "key": "csp_xml_CK资源",
             "name": "🐝CK 资源",
             "type": 1,
@@ -167,18 +148,31 @@
             "name": "❤91麻豆源",
             "type": 1,
             "api": "https://91md.me/api.php/provide/vod/",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "❤探探资源",
-            "name": "❤探探资源",
-            "type": 1,
-            "api": "https://apittzy.com/api.php/provide/vod/",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "麻豆视频",
+                "91制片厂",
+                "天美传媒",
+                "蜜桃传媒",
+                "皇家华人",
+                "星空传媒",
+                "精东影业",
+                "海角社区",
+                "成人头条",
+                "乌鸦传媒",
+                "兔子先生",
+                "杏吧原创",
+                "玩偶姐姐",
+                "mini传媒",
+                "大象传媒",
+                "91视频",
+                "PsychoPorn",
+                "糖心Vlog",
+                "萝莉社",
+                "性视界"
+            ]
         },
         {
             "key": "❤色猫资源",
@@ -190,91 +184,10 @@
             "filterable": 0
         },
         {
-            "key": "❤美少女资源",
-            "name": "❤美少女资源",
-            "type": 0,
-            "api": "https://www.msnii.com/api/xml.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "❤淫水机资源",
-            "name": "❤淫水机资源",
-            "type": 0,
-            "api": "https://www.xrbsp.com/api/xml.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "❤香奶儿资源",
-            "name": "❤香奶儿资源",
-            "type": 0,
-            "api": "https://www.gdlsp.com/api/xml.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "❤白嫖资源",
-            "name": "❤白嫖资源",
-            "type": 0,
-            "api": "https://www.kxgav.com/api/xml.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "❤小湿妹资源",
-            "name": "❤小湿妹资源",
-            "type": 0,
-            "api": "https://www.afasu.com/api/xml.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "❤大地资源",
-            "name": "❤大地资源",
-            "type": 0,
-            "api": "https://dadiapi.com/api.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "❤老鸭资源",
-            "name": "❤老鸭资源",
-            "type": 1,
-            "api": "https://api.apilyzy.com/api.php/provide/vod/",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
             "key": "❤乐播资源",
             "name": "❤乐播资源",
             "type": 1,
             "api": "https://lbapi9.com/api.php/provide/vod/",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "❤博天堂",
-            "name": "❤博天堂",
-            "type": 0,
-            "api": "http://bttcj.com/inc/sapi.php",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "❤环亚资源",
-            "name": "❤环亚资源",
-            "type": 0,
-            "api": "http://wmcj8.com/inc/sapi.php",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
@@ -293,9 +206,33 @@
             "name": "❤鲨鱼资源",
             "type": 1,
             "api": "https://shayuapi.com/api.php/provide/vod/",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "国产情色",
+                "日本无码",
+                "AV明星",
+                "中文字幕",
+                "网红主播",
+                "成人动漫",
+                "欧美情色",
+                "国模私拍",
+                "长腿丝袜",
+                "邻家人妻",
+                "韩国伦理",
+                "香港伦理",
+                "精品推荐",
+                "原纱央莉",
+                "柚木TINA",
+                "大桥未久",
+                "AV明星1",
+                "仁科百华",
+                "天海翼",
+                "小川阿佐美",
+                "三上悠亚",
+                "长泽梓"
+            ]
         }
     ],
     "lives": [
