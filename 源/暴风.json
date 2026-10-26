@@ -434,8 +434,8 @@
         {
             "name": "自用直播",
             "type": 0,
-            "url": "./redirect.txt",
-            "epg": "https://baoyj297245831-cpu.github.io/tvboxbyj/直播源/Tivi.m3u"
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/直播源/Tivi.m3u",
+            "epg": ""
         }
     ],
     "flags": [
