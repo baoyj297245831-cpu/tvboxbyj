@@ -6,7 +6,7 @@
         {
             "name": "直播源名称",
             "type": 0,
-            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/testLIVES/live.m3u8",
+            "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/testLIVES/live.m3u",
             "epg": "",
             "logo": ""
         }
