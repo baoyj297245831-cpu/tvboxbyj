@@ -1,18 +1,6 @@
 {
     "spider": "https://raw.githubusercontent.com/felixiao/TVBoxSource/main/18/18.jar",
-    "lives": [
-        {
-            "group": "redirect",
-            "channels": [
-                {
-                    "name": "redirect",
-                    "urls": [
-                        "proxy://do=live&type=txt&ext=./18TV.txt"
-                    ]
-                }
-            ]
-        }
-    ],
+   
     "wallpaper": "http://maoyingshi.cc/api.php",
     "sites": [
         {

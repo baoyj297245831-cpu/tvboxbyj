@@ -1323,19 +1323,7 @@
             "api": "https://raw.githubusercontent.com/trial/dp/master/json2/czspp.json"
         }
     ],
-    "lives": [
-        {
-            "group": "redirect",
-            "channels": [
-                {
-                    "name": "redirect",
-                    "urls": [
-                        "proxy://do=live&type=txt&ext=Y2xhbjovL3R2Ym94L3R2L3R2Lmpzb24="
-                    ]
-                }
-            ]
-        }
-    ],
+   
     "parses": [
         {
             "name": "解析聚合",

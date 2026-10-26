@@ -235,13 +235,7 @@
             ]
         }
     ],
-    "lives": [
-        {
-            "name": "太阳",
-            "type": 0,
-            "url": "https://raw.githubusercontent.com/lllyin/assets/master/打开电视看电视.png"
-        }
-    ],
+  
     "parses": [
         {
             "name": "解析聚合",
