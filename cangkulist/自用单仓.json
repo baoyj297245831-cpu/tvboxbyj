@@ -3,11 +3,11 @@
     "urls": [
         {
             "url": "https://baoyj297245831-cpu.github.io/tvboxbyj/testAPI/直连API.json",
-            "name": "线路1🐟️鱼哥直连"
+            "name": "线路1🐟️鱼哥快连"
         },
         {
             "url": "https://jijietvbox.lol/tv/fty.json",
-            "name": "线路2🐟️鱼哥间连"
+            "name": "线路2🐟️鱼哥慢连"
         }
     ]
 }
